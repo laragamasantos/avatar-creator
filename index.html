@@ -35,18 +35,19 @@
           <img src="imgs/cabelo-careca.png" alt="Cabelo" id="avatar-cabelo">
 
           <!-- os acessórios -->
-          <img src="imgs/acessorio-oculos.png" alt="Óculos" id="avatar-oculos" class="avatar-acessorio">
-          <img src="imgs/acessorio-lacinhos.png" alt="Lacinhos" id="avatar-lacinhos" class="avatar-acessorio">
           <img src="imgs/acessorio-bandana.png" alt="Bandana" id="avatar-bandana" class="avatar-acessorio">
+          <img src="imgs/acessorio-lacinhos.png" alt="Lacinhos" id="avatar-lacinhos" class="avatar-acessorio">
+          <img src="imgs/acessorio-oculos.png" alt="Óculos" id="avatar-oculos" class="avatar-acessorio">
         </div>
         <p id="avatar-nome">Meu nome...</p>
+        <button id="baixar"><img src="imgs\icone-tesoura.png"> Baixar avatar</button>
       </section>
       <section id="secao-controles">
         <h2>Controles</h2>
         <div>
           <!-- coloque os controles aqui -->
           <label>Nome: <input type="text" id="nome" maxlength="50"></label><br>
-          <label>Cor da pele: <input type="color" id="cor"></label><br>
+          <label>Cor da pele: <input type="color" id="cor" value="#ffffff"></label><br>
           <label>Cabelo: 
             <select id="cabelos">
               <option value="imgs\cabelo-alaranjado-curto.png">Laranja curto</option>
@@ -80,5 +81,6 @@
       </section>
     </main>
     <script src="avatar.js" charset="utf-8"></script>
+    <script src="html2canvas.js"></script>
   </body>
 </html>
